@@ -1,7 +1,7 @@
 StockMax
 ========
 
-My custom solution to Hacker Rank Stock Maximize Question Using PHP. 
+My custom solution to Hacker Rank Stock Maximize Question Using PHP. Please click on the `index.php` file above to see the PHP code.
 
 Problem Definition
 ------------------
