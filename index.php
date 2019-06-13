@@ -14,12 +14,12 @@
 
 		for ($i = count($stock_array) - 1 ; $i >=0 ; $i = $i - 1){
 
-			$array_index = $stock_array[$i]; 
-	        if ($max_price <= $array_index){
-                $do_buy = array();
-	            $do_buy[$i] = 0;
-	            $max_price = $array_index;
-			}
+		  $array_index = $stock_array[$i]; 
+	            if ($max_price <= $array_index){
+                      $do_buy = array();
+	              $do_buy[$i] = 0;
+	              $max_price = $array_index;
+		    }
 
 	    	$profit = $profit + ($max_price - $array_index);
 
@@ -33,13 +33,13 @@
 
 	// Program Begins Here:
 
-    // User Input Test Cases
+        // User Input Test Cases
 	$f = fopen( 'php://stdin', 'r' );
 
 	// Reading from the File
 	while( $line = fgets( $f)  ) {
 
-		$input_array[] = $line;
+	  $input_array[] = $line;
 
 	}
 
